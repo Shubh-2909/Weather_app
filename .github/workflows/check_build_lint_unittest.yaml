@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout the code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Load keys from secrets
         env:
@@ -61,7 +61,7 @@ jobs:
 
     steps:
       - name: Checkout the code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Load keys from secrets
         env:
